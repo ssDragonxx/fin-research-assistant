@@ -1,0 +1,10 @@
+{"question": "今天大盘怎么样？", "skill": "fin-market", "expect_cmds": ["market.quote", "market.breadth"], "checks": ["数字来自 market_total", "不长于 400 字"]}
+{"question": "帮我看看宁德时代", "skill": "fin-research", "expect_cmds": ["stock.quote", "stock.financials"], "checks": ["PE 用 pe_ttm", "财务标明报告期", "有风险段"]}
+{"question": "300750 最近有什么公告", "skill": "fin-research", "expect_cmds": ["news.announce"], "checks": ["每条带日期与链接"]}
+{"question": "比亚迪和长城汽车哪个估值便宜", "skill": "fin-research", "expect_cmds": ["stock.quote", "stock.peers"], "checks": ["只比较同名指标", "不给买卖建议"]}
+{"question": "今天哪些板块涨得好", "skill": "fin-market", "expect_cmds": ["market.sector"], "checks": ["不出现二级板块", "带涨跌幅"]}
+{"question": "生成今天的盘后简报", "skill": "fin-market", "expect_cmds": ["brief.assemble"], "checks": ["含昨日回顾段", "落盘成功"]}
+{"question": "我不确定是哪家公司，搜一下平安", "skill": "fin-research", "expect_cmds": ["resolve"], "checks": ["多候选时反问"]}
+{"question": "贵州茅台财务怎么样", "skill": "fin-research", "expect_cmds": ["stock.financials"], "checks": ["4 期数据", "趋势描述只基于数据"]}
+{"question": "这只股票有风险吗 000001", "skill": "fin-research", "expect_cmds": ["risk.rules"], "checks": ["风险条目不增删", "保留 evidence 原文"]}
+{"question": "今天涨停多少家", "skill": "fin-market", "expect_cmds": ["market.limitup"], "checks": ["非交易日说明休市"]}

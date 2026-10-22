@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+*.so
+
+# 本地运行产物
+.fin-data/
+dist/finance-dist/
+
+# 凭据与本地配置
+.env
+.env.*
+!.env.example
+config.local.yaml
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

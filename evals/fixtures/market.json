@@ -1,0 +1,327 @@
+{
+  "ok": true,
+  "cmd": "market.snapshot",
+  "as_of": "2026-10-22T23:22:22+08:00",
+  "data": {
+    "indexes": {
+      "date": "2026-10-22",
+      "indexes": [
+        {
+          "name": "上证指数",
+          "code": "000001",
+          "price": 3658.03,
+          "change_pct": -1.48,
+          "change": -55.0,
+          "amount_yuan": 706095648847.8
+        },
+        {
+          "name": "深证成指",
+          "code": "399001",
+          "price": 11357.32,
+          "change_pct": -2.96,
+          "change": -347.03,
+          "amount_yuan": 822618050432.5358
+        },
+        {
+          "name": "创业板指",
+          "code": "399006",
+          "price": 2576.9,
+          "change_pct": -4.37,
+          "change": -117.81,
+          "amount_yuan": 406179350022.01
+        },
+        {
+          "name": "科创50",
+          "code": "000688",
+          "price": 1305.87,
+          "change_pct": -2.78,
+          "change": -37.41,
+          "amount_yuan": 72810415054.0
+        }
+      ],
+      "summary": {
+        "up_indexes": 0,
+        "down_indexes": 4,
+        "total_amount_yi": 20077.0,
+        "weekday": "Thursday"
+      }
+    },
+    "breadth": {
+      "as_of_date": "2026-10-22",
+      "scope": "指数级口径：沪指=沪市，深成指=深市，创业板/科创50 为子集，不可相加",
+      "by_index": [
+        {
+          "index": "上证指数",
+          "code": "000001",
+          "up": 219,
+          "down": 2121,
+          "flat": 17,
+          "halt": 5
+        },
+        {
+          "index": "深证成指",
+          "code": "399001",
+          "up": 231,
+          "down": 2690,
+          "flat": 17,
+          "halt": 5
+        },
+        {
+          "index": "创业板指",
+          "code": "399006",
+          "up": 101,
+          "down": 1309,
+          "flat": 0,
+          "halt": 5
+        },
+        {
+          "index": "科创50",
+          "code": "000688",
+          "up": 11,
+          "down": 38,
+          "flat": 1,
+          "halt": 5
+        }
+      ],
+      "market_total": {
+        "up": 450,
+        "down": 4811,
+        "flat": 34,
+        "halt": 10,
+        "note": "沪指 + 深成指，覆盖沪深两市全部个股（创业板/科创板已含在内）"
+      }
+    },
+    "limit_up": {
+      "date": "20261022",
+      "count": 33,
+      "sample": [
+        {
+          "code": "001360",
+          "name": "南矿集团",
+          "change_pct": 10.00592041015625,
+          "boards": 1,
+          "industry": "专用设备"
+        }
+      ]
+    },
+    "sector": {
+      "total_boards": 496,
+      "primary_boards": 205,
+      "top": [
+        {
+          "code": "BK1500",
+          "name": "医美耗材",
+          "change_pct": 2.35,
+          "main_net_inflow": 62629643.0,
+          "up": 2,
+          "down": 1,
+          "leader": "锦波生物",
+          "level": "primary"
+        },
+        {
+          "code": "BK1253",
+          "name": "医疗美容",
+          "change_pct": 1.71,
+          "main_net_inflow": 59523960.0,
+          "up": 3,
+          "down": 2,
+          "leader": "锦波生物",
+          "level": "primary"
+        },
+        {
+          "code": "BK1461",
+          "name": "玻璃制造",
+          "change_pct": 0.83,
+          "main_net_inflow": 45448844.0,
+          "up": 3,
+          "down": 4,
+          "leader": "三峡新材",
+          "level": "primary"
+        },
+        {
+          "code": "BK1393",
+          "name": "工程机械整机",
+          "change_pct": 0.83,
+          "main_net_inflow": 126432400.0,
+          "up": 11,
+          "down": 10,
+          "leader": "山河智能",
+          "level": "primary"
+        },
+        {
+          "code": "BK1408",
+          "name": "机器人",
+          "change_pct": 0.48,
+          "main_net_inflow": 95812848.0,
+          "up": 10,
+          "down": 11,
+          "leader": "巨能股份",
+          "level": "primary"
+        },
+        {
+          "code": "BK0739",
+          "name": "工程机械",
+          "change_pct": 0.35,
+          "main_net_inflow": 151702448.0,
+          "up": 16,
+          "down": 18,
+          "leader": "山河智能",
+          "level": "primary"
+        },
+        {
+          "code": "BK1328",
+          "name": "集成电路封测",
+          "change_pct": 0.2,
+          "main_net_inflow": 1027856448.0,
+          "up": 6,
+          "down": 7,
+          "leader": "华天科技",
+          "level": "primary"
+        },
+        {
+          "code": "BK1570",
+          "name": "其他石化",
+          "change_pct": 0.07,
+          "main_net_inflow": 193256064.0,
+          "up": 3,
+          "down": 10,
+          "leader": "博汇股份",
+          "level": "primary"
+        },
+        {
+          "code": "BK1469",
+          "name": "涂料",
+          "change_pct": 0.02,
+          "main_net_inflow": -407607.0,
+          "up": 1,
+          "down": 1,
+          "leader": "*ST亚士",
+          "level": "primary"
+        },
+        {
+          "code": "BK1450",
+          "name": "空调",
+          "change_pct": -0.17,
+          "main_net_inflow": 255062128.0,
+          "up": 2,
+          "down": 2,
+          "leader": "美的集团",
+          "level": "primary"
+        }
+      ],
+      "bottom": [
+        {
+          "code": "BK1340",
+          "name": "印制电路板",
+          "change_pct": -6.01,
+          "main_net_inflow": -6202993408.0,
+          "up": 2,
+          "down": 46,
+          "leader": "天津普林",
+          "level": "primary"
+        },
+        {
+          "code": "BK1220",
+          "name": "广告营销",
+          "change_pct": -5.94,
+          "main_net_inflow": -843704128.0,
+          "up": 1,
+          "down": 29,
+          "leader": "元隆雅图",
+          "level": "primary"
+        },
+        {
+          "code": "BK0486",
+          "name": "传媒",
+          "change_pct": -5.54,
+          "main_net_inflow": -3696886672.0,
+          "up": 3,
+          "down": 125,
+          "leader": "出版传媒",
+          "level": "primary"
+        },
+        {
+          "code": "BK1218",
+          "name": "出版",
+          "change_pct": -5.29,
+          "main_net_inflow": -473065264.0,
+          "up": 1,
+          "down": 27,
+          "leader": "出版传媒",
+          "level": "primary"
+        },
+        {
+          "code": "BK0459",
+          "name": "元件",
+          "change_pct": -5.21,
+          "main_net_inflow": -6413585152.0,
+          "up": 2,
+          "down": 65,
+          "leader": "天津普林",
+          "level": "primary"
+        },
+        {
+          "code": "BK1600",
+          "name": "医疗研发外包",
+          "change_pct": -5.06,
+          "main_net_inflow": -1245912320.0,
+          "up": 0,
+          "down": 29,
+          "leader": "泰格医药",
+          "level": "primary"
+        },
+        {
+          "code": "BK1326",
+          "name": "半导体设备",
+          "change_pct": -4.79,
+          "main_net_inflow": -2142250880.0,
+          "up": 0,
+          "down": 25,
+          "leader": "长川科技",
+          "level": "primary"
+        },
+        {
+          "code": "BK1591",
+          "name": "通信网络设备及器件",
+          "change_pct": -4.64,
+          "main_net_inflow": -6902873856.0,
+          "up": 1,
+          "down": 36,
+          "leader": "宇特光电",
+          "level": "primary"
+        },
+        {
+          "code": "BK1409",
+          "name": "激光设备",
+          "change_pct": -4.33,
+          "main_net_inflow": -704936656.0,
+          "up": 0,
+          "down": 11,
+          "leader": "金运激光",
+          "level": "primary"
+        },
+        {
+          "code": "BK0727",
+          "name": "医疗服务",
+          "change_pct": -4.3,
+          "main_net_inflow": -1586594800.0,
+          "up": 1,
+          "down": 53,
+          "leader": "爱尔眼科",
+          "level": "primary"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "name": "东方财富",
+      "endpoint": "market.snapshot",
+      "url": ""
+    }
+  ],
+  "warnings": [
+    "行业板块共 496 个（含二级/三级），按一级去重后 205 个"
+  ],
+  "cache": "miss"
+}
